@@ -1,0 +1,5 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: bazel build //tensorflow/tools/pip_package:build_pip_package
