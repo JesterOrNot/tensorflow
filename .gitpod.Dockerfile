@@ -8,4 +8,4 @@ RUN wget https://github.com/bazelbuild/bazel/releases/download/1.2.1/bazel-1.2.1
     && sudo ./bazel-1.2.1-installer-linux-x86_64.sh --user
 
 # Install Tensorflow Dependencies
-RUN pip3 install numpy
+RUN pip install numpy
